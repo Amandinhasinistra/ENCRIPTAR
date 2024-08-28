@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+    <title>criptografar</title>
+</head>
+
+<body>
+
+
+    <main>
+        <div class="container">
+            <section>
+
+                <textarea id="cxtexto" class="caixa-texto" cols="40" rows="4"></textarea>
+                <h6> Deixe sua mensagem</h6>
+
+                <div class="mensagem">
+                    <span><h6> Apenas letras minúsculas e sem acento</h6></span>
+                </div>
+
+                <div class="botoes">
+                    <button class="btn-encriptar" onclick="btnencriptar()">Encriptar</button>
+                    <button class="btn-desencriptar" onclick="btndesencriptar()">Desencriptar</button>
+                    <button class="copiar"onclick="copiar()">Copiar</button>
+
+                </div>
+            </section>
+            <section>
+                <textarea id="cxmensagem" class="caixa-mensagem" cols="20" rows="10"></textarea>
+            </section>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
